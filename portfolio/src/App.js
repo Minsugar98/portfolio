@@ -1,6 +1,6 @@
 import { ThemeProvider } from './context/ThemeContext';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Rending from './pages/rending';
+import Landing from './pages/landing';
 import About from './pages/about';
 import Project from './pages/project';
 import Contact from './pages/contact';
@@ -25,7 +25,7 @@ function App() {
       path: '/',
       element: (
         <Layout>
-          <Rending />
+          <Landing />
         </Layout>
       ),
     },
