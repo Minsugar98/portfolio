@@ -1,0 +1,65 @@
+.leftSide {
+  position: fixed;
+  bottom: 0;
+  left: 40px;
+  z-index: 10;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: slideUp 1.5s ease-in-out;
+}
+.socialIcons a {
+  color: #333;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.dark .socialIcons a {
+  color: #fff;
+}
+
+.dark .socialIcons a:hover {
+  color: #ccc;
+}
+
+.socialIcons::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 35vh;
+  margin: 0 auto;
+  background-color: #333;
+  margin-top: 20px;
+  animation: slideUp 1.5s ease-in-out;
+}
+.dark .socialIcons::after {
+  background-color: #fff;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .socialIcons::after {
+    height: 10vh;
+  }
+  .socialIcons a {
+    font-size: 14px;
+  }
+  .socialIcons {
+    gap: 10px;
+  }
+  .leftSide {
+    left: 20px;
+  }
+}

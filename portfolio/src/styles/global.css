@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Choice';
+  src: url('../assets/font/BMJUA_otf.otf') format('opentype'),
+    url('../assets/font/BMJUA_ttf.ttf') format('truetype');
+}
+body {
+  font-family: 'Choice', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
