@@ -17,6 +17,10 @@
 - Nav, SideBar 구현 (모바일 반응형)
 - 1차 폰트 적용
 
+### 2차 배포 (2025.01.10)
+- 각 페이지 디자인 설계
+- Landing Page
+
 ## 🛠 기술 스택
 
 ### Frontend
@@ -32,7 +36,7 @@
 - [x] 디자인 자료 조사
 - [x] 폴더 구조 설계
 - [x] Component 분리
-- [ ] Landing Page
+- [x] Landing Page
 - [ ] About Page
 - [ ] Project Page
 - [ ] Contact Page
