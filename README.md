@@ -22,6 +22,7 @@
 ### 2차 배포 (2025.01.10)
 - 각 페이지 디자인 설계
 - Landing Page
+- vercel 배포
 
 ## 🛠 기술 스택
 
@@ -42,7 +43,7 @@
 - [ ] About Page
 - [ ] Project Page
 - [ ] Contact Page
-- [ ] 배포 및 도메인 선정
+- [x] 배포 및 도메인 선정
 
 ## ⭐ 추가 예정 사항
 
