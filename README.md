@@ -4,6 +4,8 @@
 
 개인 웹 포트폴리오 사이트입니다.
 
+#### URL : https://portfolio-minsuuuus-projects.vercel.app/
+
 ## 📅 개발 기간
 
 - 시작일: 2025.01.07
