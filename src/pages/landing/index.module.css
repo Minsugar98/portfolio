@@ -7,6 +7,7 @@
   width: 100vw;
   padding-left: 15%;
   animation: fadeIn 0.5s ease-in;
+  box-sizing: border-box;
 }
 @keyframes fadeIn {
   from {

@@ -1,0 +1,66 @@
+{
+  "skills": [
+    {
+      "name": "React",
+      "img": "FaReact"
+    },
+    {
+      "name": "Next.js",
+      "img": "RiNextjsFill"
+    },
+    {
+      "name": "HTML5",
+      "img": "FaHtml5"
+    },
+    {
+      "name": "CSS3",
+      "img": "FaCss3Alt"
+    },
+    {
+      "name": "JavaScript",
+      "img": "IoLogoJavascript"
+    },
+    {
+      "name": "TypeScript",
+      "img": "SiTypescript"
+    },
+    {
+      "name": "Node.js",
+      "img": "DiNodejs"
+    },
+    {
+      "name": "Express",
+      "img": "SiExpress"
+    },
+    {
+      "name": "Prisma",
+      "img": "SiPrisma"
+    },
+    {
+      "name": "PostgreSQL",
+      "img": "BiLogoPostgresql"
+    },
+    {
+      "name": "Git",
+      "img": "FaGitAlt"
+    },
+    {
+      "name": "GitHub",
+      "img": "FaGithub"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Figma",
+      "img": "FaFigma"
+    },
+    {
+      "name": "VSCode",
+      "img": "VscVscode"
+    },
+    {
+      "name": "Postman",
+      "img": "SiPostman"
+    }
+  ]
+}

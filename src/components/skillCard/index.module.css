@@ -1,0 +1,25 @@
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid #ffffff;
+  padding: 0.5rem;
+}
+.dark {
+  border: 1px solid #ffffff;
+}
+
+.light {
+  border: 1px solid #000000;
+}
+
+@media (max-width: 480px) {
+  .skillCard {
+    font-size: 12px;
+    max-width: 150px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+}
