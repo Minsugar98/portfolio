@@ -28,6 +28,11 @@
 - Landing Page
 - vercel 배포
 
+### 3차 배포 (2025.01.15)
+- Figma 디자인
+- About Page
+- Card 컴포넌트 
+
 ## 🛠 기술 스택
 
 ### Frontend
@@ -44,7 +49,7 @@
 - [x] 폴더 구조 설계
 - [x] Component 분리
 - [x] Landing Page
-- [ ] About Page
+- [x] About Page
 - [ ] Project Page
 - [ ] Contact Page
 - [x] 배포 및 도메인 선정
