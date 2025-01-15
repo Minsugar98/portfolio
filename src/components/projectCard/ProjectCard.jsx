@@ -69,7 +69,9 @@ export default function ProjectCard({ project }) {
 
             <div className={styles.modalMyWork}>
               {project.myWork.map((work) => (
-                <div className={styles.modalMyWorkItem}>{work}</div>
+                <div key={work} className={styles.modalMyWorkItem}>
+                  {work}
+                </div>
               ))}
             </div>
           </div>
