@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 import { useTheme } from '../../context/ThemeContext';
-import SkillCard from '../../components/skillCard';
+import SkillCard from '../../components/skillCard/SkillCard';
 import skills from '../../assets/data/skills.json';
 import avatar from '../../assets/images/ic_avatar.png';
 

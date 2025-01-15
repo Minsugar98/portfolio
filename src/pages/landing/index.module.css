@@ -31,7 +31,7 @@
   font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .landingContainer {
     padding-left: 5%;
     padding-right: 5%;

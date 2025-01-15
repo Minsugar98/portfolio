@@ -4,10 +4,10 @@ import Landing from './pages/landing';
 import About from './pages/about';
 import Project from './pages/project';
 import Contact from './pages/contact';
-import Nav from './components/nav';
-import LeftSide from './components/leftSide';
-import RightSide from './components/rightSide';
-import FallingStars from './components/bgFallingStars';
+import Nav from './components/nav/Nav';
+import LeftSide from './components/leftSide/LeftSide';
+import RightSide from './components/rightSide/RightSide';
+import FallingStars from './components/bgFallingStars/FallingStars';
 
 function App() {
   const Layout = ({ children }) => (

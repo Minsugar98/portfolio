@@ -1,0 +1,17 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 80px 18% 20px 15%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.projectContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  overflow-x: scroll;
+}
