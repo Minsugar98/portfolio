@@ -55,8 +55,8 @@
 - [x] Component 분리
 - [x] Landing Page
 - [x] About Page
-- [ ] Project Page
-- [ ] Contact Page
+- [x] Project Page
+- [x] Contact Page
 - [x] 배포 및 도메인 선정
 
 ## ⭐ 추가 예정 사항
