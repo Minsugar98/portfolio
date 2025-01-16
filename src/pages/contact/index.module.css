@@ -1,0 +1,61 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 40%;
+  height: auto;
+}
+
+.contactTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contactInput {
+  font-size: 12px;
+}
+.contactTextarea {
+  font-size: 12px;
+  resize: none;
+  height: 20rem;
+}
+
+.dark {
+  border: 1px solid #f5f5f5;
+}
+.light {
+  border: 1px solid #1a1a1a;
+}
+.contactSubmit {
+  height: 30px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+.darkSubmit {
+  background-color: #f5f5f5;
+  color: #1a1a1a;
+}
+.lightSubmit {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .contactTextarea {
+    font-size: 12px;
+    resize: none;
+    height: 10rem;
+  }
+}

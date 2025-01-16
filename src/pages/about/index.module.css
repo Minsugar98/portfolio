@@ -6,6 +6,7 @@
   width: 100vw;
   padding: 80px 18% 20px 15%;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 @keyframes float {
@@ -78,13 +79,14 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  height: 240px;
+  /* height: 240px; */
   overflow-y: scroll;
 }
 
 .ToolsContent {
   display: flex;
   flex-direction: row;
+  /* height: 240px; */
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
@@ -102,14 +104,11 @@
   .aboutTitle {
     font-size: 1.5rem;
   }
-  .SkillContent {
-    /* 모바일 사이즈 크기가 너무 딱 맞아서 4개 보임..  */
-    height: 120px;
-    overflow-y: scroll;
-  }
+  .SkillContent,
   .ToolsContent {
     /* 모바일 사이즈 크기가 너무 딱 맞아서 4개 보임..  */
-    height: 60px;
+    /* height: 120px; */
+    width: 100%;
     overflow-y: scroll;
   }
 
