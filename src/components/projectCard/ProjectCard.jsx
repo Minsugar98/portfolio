@@ -68,6 +68,7 @@ export default function ProjectCard({ project }) {
             />
 
             <div className={styles.modalMyWork}>
+              <p>느낀점</p>
               {project.myWork.map((work) => (
                 <div key={work} className={styles.modalMyWorkItem}>
                   {work}

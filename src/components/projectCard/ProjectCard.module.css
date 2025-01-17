@@ -30,7 +30,7 @@
 .projectCardImage {
   width: 100%;
   height: 8rem;
-  background-color: blue;
+  background-color: #ffffff;
 }
 .projectCardDescription {
   width: 100%;
@@ -78,7 +78,6 @@
 .modalMyWork {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   height: 40%;
   box-sizing: border-box;
